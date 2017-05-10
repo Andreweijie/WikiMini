@@ -5,7 +5,7 @@ span {
 
 h1 {
     font-size: 10rem;
-    font-family: helvetica nueue;
+    font-family: Novar;
 }
 
 a {
@@ -58,4 +58,9 @@ a {
 #searchInput:focus {
   transition: 0.5s ease;
   border-color:black;
+}
+
+@font-face {
+    font-family: 'Novar'; /*a name to be used later*/
+    src: url('fonts/Aquatico-Regular.ttf'); /*URL to font*/
 }
